@@ -1,0 +1,48 @@
+#container {
+    height:100%;
+    overflow: visible;
+    background-color: #3E68CC;
+    color:#111111;
+}
+.column {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+.column img {
+    margin: 20px;
+    width: 33%;
+    border-radius: 50%;
+}
+.column .content {
+    margin:30px;
+    font-family: bree serif;
+    font-size: 20px;
+}
+.column .content .title {
+    font-family: pacifico;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#personal-column {
+    width: 25%;
+    background-color: #83FF76;
+}
+#work-column {
+    background-color: #E82727;
+    width:49%;
+}
+#it-column {
+    background-color: #3E68CC;
+    width: 25%;
+    z-index: -20;
+}
+.column:not(.selected){
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px); 
+}
