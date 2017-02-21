@@ -32,14 +32,14 @@ html, body {
 }
 #personal-column {
     width: 25%;
-    background-color: #83FF76;
+    background-color: #E3CBAC;
 }
 #work-column {
-    background-color: #E82727;
+    background-color: #C46D3B;
     width: 49%;
 }
 #it-column {
-    background-color: #3E68CC;
+    background-color: #324654;
     width: 25%;
     z-index: -20;
 }
